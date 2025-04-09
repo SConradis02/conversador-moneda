@@ -1,17 +1,19 @@
-echo "<project>
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.conversadordemoneda</groupId>
-  <artifactId>conversador-moneda</artifactId>
-  <version>1.0</version>
-<dependencies>
-    <dependency>
-        <groupId>org.fusesource.jansi</groupId>
-        <artifactId>jansi</artifactId>
-        <version>2.4.0</version>
-    </dependency>
-</dependencies>
-</project>" > pom.xml
-
-git add pom.xml
-git commit -m "Agrega pom.xml para Maven"
-git push origin main
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.conversadordemoneda</groupId>
+    <artifactId>conversador-moneda</artifactId>
+    <version>1.0</version>
+    
+    <dependencies>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.fusesource.jansi</groupId>
+            <artifactId>jansi</artifactId>
+            <version>2.4.0</version>
+        </dependency>
+    </dependencies>
+</project>
